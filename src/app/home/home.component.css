@@ -21,7 +21,7 @@ body {
 
 .hero::before {
   content: "";
-  background: url("https://angelecitystourism.files.wordpress.com/2014/08/church.jpg")
+  background: url("/assets/images/church.jpg") center;
     center;
   background-size: cover;
   filter: hue-rotate(180deg);
