@@ -171,6 +171,7 @@ a {
 }
 .content .content-box h1 {
   font-weight: 700;
+  font-size: 2rem;
 }
 .content .content-box p {
   margin-bottom: 30px;
@@ -286,4 +287,40 @@ body {
 .petra-content p {
   font-size: 1.3em;
   line-height: 1.6em;
+}
+/* MEDIA QUERIES */
+@media (max-width: 1024px) {
+  .content .content-box h1 {
+  }
+}
+
+@media (max-width: 1280px) {
+  .content .content-box h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+  .recent-petra {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .recent-blogs {
+    padding-bottom: 50px;
+    margin: 0 0;
+  }
+  .petra-img {
+    width: 60%;
+  }
+}
+@media (max-width: 400px) {
+  .petra-img {
+    width: 80%;
+  }
+  .recent-blogs {
+    padding-bottom: 50px;
+    margin: 0 0;
+  }
+  .petra-content h4 {
+    font-size: 1.6em;
+  }
 }

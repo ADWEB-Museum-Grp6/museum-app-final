@@ -14,7 +14,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 94vh;
   position: relative;
   overflow: hidden;
 }
@@ -36,6 +36,7 @@ body {
   max-width: 50%;
   text-align: center;
   color: white;
+  text-align: center;
 }
 
 .hero-text > h1 {
@@ -88,4 +89,57 @@ body {
 }
 .button:hover a {
   color: white;
+}
+
+@media only screen and (max-width: 768px) {
+  .hero-text > h1 {
+    font-family: "Playfair Display", serif;
+    text-shadow: 2px 2px black;
+
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  .button {
+    width: 140px;
+    height: 45px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .hero-text > h1 {
+    font-family: "Playfair Display", serif;
+    text-shadow: 2px 2px black;
+
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .hero-text > h1 {
+    font-family: "Playfair Display", serif;
+    text-shadow: 2px 2px black;
+
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  .button {
+    width: 80px;
+    height: 35px;
+    font-family: "Roboto", sans-serif;
+    font-size: 8px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .hero-text > h1 {
+    font-family: "Playfair Display", serif;
+    text-shadow: 2px 2px black;
+
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  .button {
+    width: 70px;
+    height: 35px;
+    font-family: "Roboto", sans-serif;
+    font-size: 7px;
+  }
 }
