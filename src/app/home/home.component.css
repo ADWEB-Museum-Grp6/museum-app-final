@@ -22,7 +22,6 @@ body {
 .hero::before {
   content: "";
   background: url("/assets/images/church.jpg") center;
-    center;
   background-size: cover;
   filter: hue-rotate(180deg);
   position: absolute;
